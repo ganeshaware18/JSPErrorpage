@@ -1,4 +1,15 @@
 # JSPErrorpage
+
+learn following some attributes :
+
+<%@page errorPage="error_ex.jsp" %>
+
+<%@page isErrorPage="true" %>
+
+print exception object
+
+<%=exception%>
+
 ![image](https://user-images.githubusercontent.com/96858313/181306006-9b682fb2-cb88-4cec-aba2-eaf6004cea5a.png)
 ![image](https://user-images.githubusercontent.com/96858313/181306082-a30feef5-db37-49db-ab9e-e675f23fb43c.png)
 ![image](https://user-images.githubusercontent.com/96858313/181306128-41de26dc-ece1-4e0f-81be-fffb48c3d47d.png)
